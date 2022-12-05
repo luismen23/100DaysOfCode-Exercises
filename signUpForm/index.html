@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign-Up</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="left">
+            <img src="./img/wil-stewart-K_TbABnVzHo-unsplash.jpg" alt="bg" class="bg-left">
+            <div class="center-logo">
+                <img src="./img/odin-lined.png" alt="logo" class="odin-logo">
+                <h1 class="title">TOKU</h1>
+            </div>
+        </div>
+        
+        <div class="right">
+            <div class="top">
+                <p class="desc">This is not a real online service! you know you need something like this in your life to help you realize you deepest dreams.
+                    Sign up  now to get started. <br><br> You know you want to.
+                </p>
+            </div>
+            <div class="mid">
+                <h3>Let's do this!</h3>
+                <form class="form" name="form" id="form" action="#" method="get">
+                    <label for="first-name">First Name<input type="text" id="first-name" name="first-name"  required></label>
+                    <label for="last-name">Last Name<input type="text" id="last-name" name="last-name" required></label>
+                    <label for="email">Email<input type="email" id="email" name="email" required></label>
+                    <label for="phone">Phone Number<input type="tel" id="phone" name="phone" required></label>
+                    <label for="password">Password<input type="password" id="password" name="password" minlength="8" required></label>
+                    <label for="confirm">Confirm Password<input type="password" id="confirm-password" name="confirm-password" minlength="8" title="min length is 8" required></label>     
+                </form>
+            </div>
+            <div class="bottom">
+                <button class="submit" type="submit" form="form">Create Account</button>
+                <p>Already have an account? <span>Log in</span></p>
+            </div> 
+        </div>
+    </div>
+ 
+</body>
+</html>
